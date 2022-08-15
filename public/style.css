@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,900;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+* {
+  padding: 0%;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3498db;
+  font-family:sans-serf;
+}
+.row{
+    width: 60vh;
+    height: 50vh;
+    margin:  20vh auto;
+    background-color: #f2e03af0;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: center;
+
+    
+}
+.search{
+    text-align: center;
+    padding: 10px;
+    margin-top: 2rem;
+    border-radius: 20px;
+    border-style: none;
+    font-size: 1em; 
+    width: 80%;
+}
+
+.weather{
+    margin: 8rem auto;
+    width: 80%;
+    font-size: 2em;
+}
+@media only screen and (max-width: 420px){
+    .row{
+        max-width: 320px;
+        font-size: 1em;
+    }
+}
